@@ -1,0 +1,78 @@
+menu-items:
+    - item: Solar Electricity
+      link: /solar-electricity/
+      
+    - item: Solar Water Heating
+      link: /solar-water-heating/
+      
+    - item: Solar Pumpsets
+      link: /solar-pumpsets/
+      
+    - item: Water Purification Systems
+      link: /water-purification-systems/
+
+
+phone: '+91 999 999 9999'
+
+slider:
+    - image: /images/slider/Solar_heaters.jpg
+      text: Solar Heaters
+      
+    - image: /images/slider/RO_plant.jpg
+      text: RO Plant
+      
+    - image: /images/slider/solar-panes.jpg
+      text: Solar Panels
+      
+    - image: /images/slider/Spare_PV_modules.jpg
+      text: Solar PV Modules
+      
+    - image: /images/slider/SOLAR-SUBMERSIBLE-PUMP.jpg
+      text: Solar Submersible Pump
+      
+    - image: /images/slider/solar-lamp.jpg
+      text: Solar Lamp
+      
+    - image: /images/slider/RO_water_filters.jpg
+      text: Solar Water Filter
+
+
+about-us: 
+    title: About Us
+    text: 'Sun Energy Systems is one of the leading provider of solar energy solutions from 2011. Having successfully installed over 1000 units, we provide affordable and low maintenance systems with a 5 year full service warranty on our devices. Our strength lies in understanding your requirements and customizing every detail of the product.' 
+
+     
+products-title: Products
+products:
+    - image: /images/products/Solar-Home-ups.jpg
+      text: Solar Home UPS
+      link: '#'
+      
+    - image: /images/products/RO_water_filters.jpg
+      text: RO Water Filters
+      link: '#'
+       
+    - image: /images/products/solar-lamp.jpg
+      text: Solar Lamps
+      link: '#'
+       
+    - image: /images/products/solar-panes.jpg
+      text: Solar Panes
+      link: '#'
+       
+    - image: /images/products/solar-submersible-water-pump.jpg
+      text: Solar Submersible Pump
+      link: '#'
+      
+    - image: /images/products/Spare-PV-modules.jpg
+      text: Spare PV Mdules
+      link: '#'
+       
+       
+footer:
+    text: Sun Energy Systems is one of the leading provider of solar energy solutions from 2011.
+      
+      
+contact-page:
+    title: Contact Us
+    text: We aim to delight our customers. For any concerns or questions please contact us at the below details. You are our number one priority and we will do our best to quickly resolve any problem.

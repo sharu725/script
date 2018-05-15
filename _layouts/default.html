@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  {% seo %}
+<!--   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">   -->
+</head>
+<body>
+<div class="container">
+<header>
+    <div class="r">
+        <div class="c-3">
+            <a href="/"><div class="logo"></div></a>
+        </div>
+        <div class="c-9 vert-center">
+            <ul class="menu">
+               {% for item in site.data.data.menu-items %}
+                    <li><a href="{{item.link}}" {% if page.url == item.link %} class="active" {% endif %}>{{item.item}}</a></li>
+                {% endfor %}
+                <li><a href="/contact/">Contact Us</a></li>
+            </ul>
+        </div>
+
+    </div>
+    
+    <div class="r no-gap">
+        <div class="c-12 no-pad call-container">
+            <p class="no-pad no-mar call"><small>Call us now &nbsp;<a href="tel:{{site.data.data.phone}}"><i class="fa fa-phone-square"></i> {{site.data.data.phone}}</a></small></p>
+        </div>
+    </div>
+</header>
+
+{{content}}
+
+<footer>
+    <div class="r">
+        <div class="c-4">
+            <div class="r">
+                <div class="c-12"><div class="logo"></div></div>
+                <div class="c-12"><p class="footer-about">{{site.data.data.footer.text}}</p></div>
+            </div>
+        </div>
+        <div class="c-4"></div>
+        <div class="c-4"></div>
+    </div>
+</footer>  
+  
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script>
+$('.owl-carousel').owlCarousel({
+    autoplay: true,
+    loop:true,
+    margin:10,
+    singleItem:true,
+    autoHeight:true,
+    slideSpeed : 300,
+    paginationSpeed : 400,
+    items: 1
+})
+</script>
+</body>
+</html>
