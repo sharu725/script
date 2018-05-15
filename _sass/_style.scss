@@ -60,6 +60,7 @@ a {
             font-weight: bold;
         }
     }
+    
 }
 
 .vert-center {
@@ -195,11 +196,44 @@ footer {
 
 //contact form styles
 .form {
-    input:not(input[type=submit]) {
-        border: 1px solid #ddd;
+
+    .input {
+        border: 1px solid #eee;
         border-radius: 2px;
+        margin-bottom: 0.5em;
+        padding: 8px 10px;
+    }
+    
+    input[type='text'], input[type='tel']{
+        margin: 0;
+        padding: 0;
+        outline: none;
+        border: none;
+        width: 100%;
+        
+ 
+    }
+    input[type='submit'] {
+         margin: 0;
+        padding: 0;
+        outline: none;
+        border: none;
+        width: 100%;
+        padding: 15px 0;
+        cursor: pointer;
+    }
+     
+}
+
+.call-us {
+    @include media-query($on-palm) {
+    a {
+        display: block;
+        text-align: center;
     }
 }
+}
+
 
 .active {
     color: $text-color;
