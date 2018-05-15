@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   {% seo %}
 <!--   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">   -->
@@ -13,14 +13,14 @@
 <header>
     <div class="r">
         <div class="c-3">
-            <a href="/"><div class="logo"></div></a>
+            <a href="{{site.baseurl}}/"><div class="logo"></div></a>
         </div>
         <div class="c-9 vert-center">
             <ul class="menu">
                {% for item in site.data.data.menu-items %}
-                    <li><a href="{{item.link}}" {% if page.url == item.link %} class="active" {% endif %}>{{item.item}}</a></li>
+                    <li><a href="{{site.baseurl}}{{item.link}}" {% if page.url == item.link %} class="active" {% endif %}>{{item.item}}</a></li>
                 {% endfor %}
-                <li><a href="/contact/">Contact Us</a></li>
+                <li><a href="{{site.baseurl}}/contact/">Contact Us</a></li>
             </ul>
         </div>
 
@@ -50,7 +50,7 @@
   
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="/js/owl.carousel.min.js"></script>
+<script src="{{site.baseurl}}/js/owl.carousel.min.js"></script>
 <script>
 $('.owl-carousel').owlCarousel({
     autoplay: true,
