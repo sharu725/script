@@ -46,27 +46,27 @@ products-title: Products
 products:
     - image: /images/products/Solar-Home-ups.jpg
       text: Solar Home UPS
-      link: '#'
+      link: '/solar-electricity/'
       
     - image: /images/products/RO_water_filters.jpg
       text: RO Water Filters
-      link: '#'
+      link: '/water-purification-systems/'
        
     - image: /images/products/solar-lamp.jpg
       text: Solar Lamps
-      link: '#'
+      link: '/solar-electricity/'
        
     - image: /images/products/solar-panes.jpg
-      text: Solar Panes
-      link: '#'
+      text: Solar Street Lighting
+      link: '/solar-electricity/'
        
     - image: /images/products/solar-submersible-water-pump.jpg
       text: Solar Submersible Pump
-      link: '#'
+      link: '/solar-pumpsets/'
       
     - image: /images/products/Spare-PV-modules.jpg
       text: Spare PV Mdules
-      link: '#'
+      link: '/solar-electricity/'
        
        
 footer:

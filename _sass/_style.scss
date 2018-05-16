@@ -238,3 +238,12 @@ footer {
 .active {
     color: $text-color;
 }
+
+.submit {
+    button {
+        width: 100%;
+        font-family: inherit;
+        padding: 10px 10px;
+        cursor: pointer;
+    }
+}
