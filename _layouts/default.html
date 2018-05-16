@@ -1,14 +1,20 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
   <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
   {% seo %}
 <!--   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">   -->
 </head>
 <body>
+
 <div class="container">
 <header>
     <div class="r">
@@ -28,7 +34,7 @@
     
     <div class="r no-gap">
         <div class="c-12 no-pad call-container">
-            <p class="no-pad no-mar call"><small>Call us now &nbsp;<a href="tel:{{site.data.data.phone}}"><i class="fa fa-phone-square"></i> {{site.data.data.phone}}</a></small></p>
+            <p class="no-pad no-mar call" ><span data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"><small>Call us now &nbsp;<a href="tel:{{site.data.data.phone}}"><i class="fa fa-phone-square"></i> {{site.data.data.phone}}</a></small></span></p>
         </div>
     </div>
 </header>
@@ -40,10 +46,12 @@
         <div class="c-4">
             <div class="r">
                 <div class="c-12"><div class="logo" style="background-image: url({{site.baseurl}}/images/logo-1.png)"></div></div>
-                <div class="c-12"><p class="footer-about">{{site.data.data.footer.text}}</p></div>
+                <div class="c-12"><p class="footer-about"><small>{{site.data.data.footer.text}}</small></p></div>
             </div>
         </div>
-        <div class="c-4"></div>
+        <div class="c-4 vert-end">
+            <p class="text-center"><small>Sun Energy Systems © 2018 All rights reserved <br>{{site.data.data.phone}}</small></p>
+        </div>
         <div class="c-4"></div>
     </div>
 </footer>  
@@ -63,5 +71,15 @@ $('.owl-carousel').owlCarousel({
     items: 1
 })
 </script>
+<script src="{{site.baseurl}}/js/aos.js"></script>
+ <script>
+    AOS.init({
+        offset: 200,
+        duration: 1000,
+        easing: 'ease-in-sine',
+        delay: 100,
+    });
+  </script>
+
 </body>
 </html>

@@ -34,12 +34,15 @@ slider:
       text: Solar Lamp
       
     - image: /images/slider/RO_water_filters.jpg
-      text: Solar Water Filter
+      text: RO Water Filter
+
+    - image: /images/slider/RO_plant.jpg
+      text: RO Water Plant
 
 
 about-us: 
     title: About Us
-    text: 'Sun Energy Systems is one of the leading provider of solar energy solutions from 2011. Having successfully installed over 1000 units, we provide affordable and low maintenance systems with a 5 year full service warranty on our devices. Our strength lies in understanding your requirements and customizing every detail of the product.' 
+    text: '<p>Sun Energy Systems is one of the leading provider of solar energy solutions from 2011.</p><p>Having successfully installed over 1000 units, we provide affordable and low maintenance systems with a 5 year full service warranty on our devices. Our strength lies in understanding your requirements and customizing every detail of the product.</p><p>We have a dedicated team of trained technicians who undertake the complete installation and maintenance of the products.</p>' 
 
      
 products-title: Products
@@ -67,6 +70,18 @@ products:
     - image: /images/products/Spare-PV-modules.jpg
       text: Spare PV Mdules
       link: '/solar-electricity/'
+      
+    - image: /images/products/RO_plant.jpg
+      text: RO Water Plants
+      link: '/water-purification-systems/'
+      
+    - image: /images/products/water-softener-system.jpg
+      text: Water Softners
+      link: '/water-purification-systems/'
+      
+    - image: /images/products/Solar_heaters.jpg
+      text: Solar Water Heaters
+      link: 'solar-water-heating/'
        
        
 footer:

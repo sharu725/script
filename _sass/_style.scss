@@ -1,3 +1,4 @@
+
 body {
     padding: 0;
     margin: 0;
@@ -159,7 +160,7 @@ a {
 }
 .about-us {
     p {
-        text-align: justify;
+        text-align: center;
     }
 }
 
@@ -246,4 +247,8 @@ footer {
         padding: 10px 10px;
         cursor: pointer;
     }
+}
+
+.vert-end {
+    align-self: end;
 }
