@@ -188,6 +188,7 @@ p {
 
 footer {
     background-color: darken($brand-color, 50%);
+    border-color: darken($brand-color, 50%);
     color: #aaa;
     .footer-about {
         margin: 0;
