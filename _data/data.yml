@@ -46,6 +46,7 @@ about-us:
 
      
 products-title: Products
+#product-description: '<p>At Sun Energy Systems we offer a wide range of products catering to both Domestic and Industrial needs.</p><p>Our systems are carefully installed by trained technicians and I personally supervise and see through every detail. I believe each customer is entitled to 100 % satisfaction and commitment.</p>'
 products:
     - image: /images/products/Solar-Home-ups.jpg
       text: Solar Home UPS
