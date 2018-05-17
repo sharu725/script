@@ -117,7 +117,7 @@ p {
  .owl-carousel div .textoverlay{
     position:absolute;
     color:#FFF;
-    background-color: #00000045;
+    background-color: rgba(0, 0, 0, 0.3);
     padding: 8px 10px;
     bottom: 10%;
     left: 10%;
@@ -137,13 +137,13 @@ p {
         
     }
     .hover-text {
-        background-color: #00000045;
+        background-color: rgba(0, 0, 0, 0.3);
         padding: 8px 10px;
         position: absolute;
         text-align: center;
         left: 50%;
         transform: translate(-50%, 0);
-        top: 90px;
+        bottom: 90px;
         display: none;
         
         a {
@@ -151,6 +151,10 @@ p {
         }
         h3 {
             margin: 0;
+        }
+        @include media-query($on-palm) {
+            bottom: 5%;
+            display: block;
         }
         
     }
