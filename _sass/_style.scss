@@ -7,6 +7,7 @@ body {
     font-weight: $base-font-weight;
     line-height: $base-line-height;
     color: $text-color;
+
 }
 
 a {
@@ -27,6 +28,7 @@ p {
     max-width: 1200px;
     margin: 0 auto;
     border: 1px solid #eee;
+    overflow-x: hidden;
 }
 .menu {
     margin: 0;
@@ -91,6 +93,13 @@ p {
     margin: 0;
 }
 
+/* .owl-item {
+    display: none;
+}
+
+.owl-item .active {
+    display: block;
+} */
 .owl-carousel .owl-item {
     height: 500px;
     width:100%;
@@ -190,6 +199,7 @@ footer {
     background-color: darken($brand-color, 50%);
     border-color: darken($brand-color, 50%);
     color: #aaa;
+    margin-top: 1em;
     .footer-about {
         margin: 0;
         @include media-query($on-palm) {
@@ -304,4 +314,12 @@ footer {
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: $brand-color !important;
+}
+
+.map {
+
+    height: 450px;
+    width: 100%;
+    border: 4px solid #eee;
+    
 }
