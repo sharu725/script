@@ -9,7 +9,10 @@ menu-items:
       link: /solar-pumpsets/
       
     - item: Water Purification Systems
-      link: /water-purification-systems/
+      link: /water-purification-systems/     
+      
+    - item: Contact Us
+      link: /contact/
 
 
 phone: '09900442619'
