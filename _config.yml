@@ -3,7 +3,7 @@
 title: Sun Energy Systems
 logo: /images/sun-energy.jpg
 
-baseurl: /krinergy
+#baseurl: /krinergy
 
 collections:
         products:
